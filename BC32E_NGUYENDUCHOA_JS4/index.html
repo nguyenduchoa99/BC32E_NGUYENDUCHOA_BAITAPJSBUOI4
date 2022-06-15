@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div>
+        <div class="container d-flex justify-content-center pt-5">
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="pill" href="#baitap1">Bài 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#baitap2">Bài 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#baitap3">Bài 3</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#baitap4">Bài 4</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div class="tab-pane container active" id="baitap1">
+                <div class="bai1 m-5 p-5 container">
+                    <h1>Xuất 3 số theo thứ tự tăng dần</h1>
+                    <div class="d-flex justify-content-center pt-5">
+                        <input class="form-control w-25" id="soThu1" type="number" placeholder="Nhập số thứ 1" />
+                        <input class="form-control w-25" id="soThu2" type="number" placeholder="Nhập số thứ 2" />
+                        <input class="form-control w-25" id="soThu3" type="number" placeholder="Nhập số thứ 3" />
+                    </div>
+                    <div class="text-center p-5">
+                        <button id="btnSapXep" class="btn btn-dark">Sắp Xếp</button>
+                    </div>
+                    <div class="text-center p-5 sapXep">
+                        <h3 id="ketQuaBai1">
+                            Thứ tự tăng dần của 3 số là:
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane container fade" id="baitap2">
+                <div class="bai2 m-5 p-5 container">
+                    <h1>Chương trình "Chào hỏi"</h1>
+                    <div class="d-flex justify-content-center pt-5">
+                        <select id="thanhVien">
+                            <option id="chonThanhVien">Chọn Thành Viên</option>
+                            <option id="bo">Bố</option>
+                            <option id="me">Mẹ</option>
+                            <option id="anhTrai">Anh Trai</option>
+                            <option id="emGai">Em Gái</option>
+                        </select>
+                        <button id="btnChaoHoi" class="btn btn-dark">Gửi lời chào</button>
+                    </div>
+                    <div class="text-center p-5 chaoHoi">
+                        <h3 id="ketQuaBai2">
+                            Xin Chào
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane container fade" id="baitap3">
+                <div class="bai3 m-5 p-5 container">
+                    <h1>Đếm số chẵn lẻ</h1>
+                    <div class="d-flex justify-content-center pt-5">
+                        <input class="form-control w-25" id="so1" type="number" placeholder="Nhập số thứ 1" />
+                        <input class="form-control w-25" id="so2" type="number" placeholder="Nhập số thứ 2" />
+                        <input class="form-control w-25" id="so3" type="number" placeholder="Nhập số thứ 3" />
+                    </div>
+                    <div class="text-center p-5">
+                        <button class="btn btn-dark" id="btnDemSo">Đếm</button>
+                    </div>
+                    <div class="text-center p-5">
+                        <h3 id="ketQuaBai3">
+                            Có:
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane container fade" id="baitap4">
+                <div class="bai4 m-5 p-5 container">
+                    <h1>Đoán hình tam giác</h1>
+                    <div class="d-flex justify-content-center pt-5">
+                        <input class="form-control w-25" id="canh1" type="number" placeholder="Nhập độ dài cạnh 1" />
+                        <input class="form-control w-25" id="canh2" type="number" placeholder="Nhập độ dài cạnh 2" />
+                        <input class="form-control w-25" id="canh3" type="number" placeholder="Nhập độ dài cạnh 3" />
+                    </div>
+                    <div class="text-center p-5">
+                        <button id="btnDuDoan" class="btn btn-dark">Dự Đoán</button>
+                    </div>
+                    <div class="text-center p-5">
+                        <h3 id="ketQuaBai4">
+                            Là:
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

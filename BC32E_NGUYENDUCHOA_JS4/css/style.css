@@ -1,0 +1,95 @@
+.bai1{
+    background-image: url(../img/111.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    border-radius: 20px;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+}
+
+h3{
+    color: #fff;
+}
+
+.bai1 input{
+    margin-left: 10px;
+}
+
+.bai1 .btn{
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+
+
+.bai2{
+    background-image: url(../img/111.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.bai2 select {
+    padding: 10px 50px ;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.bai2 .btn{
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+
+.bai3{
+    background-image: url(../img/111.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.bai3 input{
+    margin-left: 10px;
+}
+
+.bai3 .btn{
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+
+
+.bai4{
+    background-image: url(../img/111.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.bai4 input{
+    margin-left: 10px;
+}
+
+.bai4 .btn{
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+
+ul li a{
+    border: 1px solid #000;
+    border-radius: 50px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+ul li a.active{
+    border: none;
+}
